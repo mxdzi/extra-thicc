@@ -14,6 +14,8 @@ packages = [{include = "extra_thicc.py", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 
+[tool.poetry.scripts]
+make-extra-thicc = 'extra_thicc:main'
 
 [build-system]
 requires = ["poetry-core"]
