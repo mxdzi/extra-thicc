@@ -5,6 +5,10 @@ description = ""
 authors = ["Michał Dziadowicz <michal@dziadowicz.it>"]
 readme = "README.md"
 license = "MIT"
+keywords = ["extrathicc", "generator"]
+classifiers = [
+    "Environment :: Console"
+]
 packages = [{include = "extra_thicc.py", from = "src"}]
 
 [tool.poetry.dependencies]
