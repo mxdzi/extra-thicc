@@ -13,6 +13,7 @@ packages = [{include = "extra_thicc.py", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pytest = "^8.2.2"
 
 [tool.poetry.scripts]
 make-extra-thicc = 'extra_thicc:main'
