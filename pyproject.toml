@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "extra-thicc"
-version = "0.1.1"
+version = "0.1.2"
 description = "Convert strings to 乇乂丅尺卂 丅卄工匚匚"
 authors = ["Michał Dziadowicz <michal@dziadowicz.it>"]
 readme = "README.md"
@@ -18,6 +18,8 @@ packages = [{include = "extra_thicc.py", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
 pytest = "^8.2.2"
 
 [tool.poetry.scripts]
