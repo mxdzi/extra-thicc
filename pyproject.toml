@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "extra-thicc"
-version = "0.1.2"
+version = "0.1.3"
 description = "Convert strings to 乇乂丅尺卂 丅卄工匚匚"
 authors = ["Michał Dziadowicz <michal@dziadowicz.it>"]
 readme = "README.md"

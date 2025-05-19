@@ -18,7 +18,7 @@ run using poetry:
 poetry run python src/extra_thicc.py <INPUT>
 ```
 
-or use a console script `make-extra-thicc`:
+or install and use a console script `make-extra-thicc`:
 
 ```bash
 $ make-extra-thicc 'extra thicc'
