@@ -4,7 +4,7 @@ trans_table = str.maketrans("abcdefghijklmnopqrstuvwxyz", "卂乃匚刀乇千厶
 
 
 def make_extra_thicc(text: str) -> str:
-    return text.translate(trans_table)
+    return text.lower().translate(trans_table)
 
 
 def main():
